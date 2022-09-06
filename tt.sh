@@ -6,7 +6,7 @@ GREEN='\033[0;32m'
 # ==================================================
 
 # // Install 
-domain=$(cat /etc/jinggovpn/xray/domain)
+domain=$(cat /etc/xray/domain)
 apt-get install netfilter-persistent -y
 apt install curl socat xz-utils wget apt-transport-https gnupg gnupg2 gnupg1 dnsutils lsb-release -y 
 apt install socat cron bash-completion ntpdate -y
